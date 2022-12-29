@@ -23,3 +23,10 @@ GUI:
 
 both:
 - [ ] support for loading plugins
+
+## libraries/code used
+- [love-imgui](https://github.com/MikuAuahDark/love-imgui)
+- [json.lua](https://github.com/rxi/json.lua)
+- [luamd](https://github.com/bakpakin/luamd)
+- [lfsffi](https://github.com/sonoro1234/luafilesystem/blob/unicode/lfs_ffi.lua)
+- [filebrowser.lua](https://github.com/sonoro1234/LuaJIT-ImGui/blob/docking_inter/examples/filebrowser.lua)
