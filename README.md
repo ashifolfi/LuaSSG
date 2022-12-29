@@ -1,6 +1,10 @@
 # Ashi's static site generator
 A lua based static site generator that uses json, markdown, and template html files to generate pages
 
+## requirements for wizard
+- Love2D
+- [love-imgui](https://github.com/MikuAuahDark/love-imgui)
+
 **HIGHLY WIP**
 
 current progress:
