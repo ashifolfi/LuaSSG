@@ -1,7 +1,3 @@
---[[ 
-    auto convert old artboard format to new artboard format
- ]]
-
 local json = require "json"
 
 function abFilelist(filename, pathto)
