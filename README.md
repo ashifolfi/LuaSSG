@@ -1,6 +1,8 @@
 # Ashi's static site generator
 A lua based static site generator that uses json, markdown, and template html files to generate pages
 
+TODO: Clean up scripts in main generator component
+
 **HIGHLY WIP**
 
 current progress:
