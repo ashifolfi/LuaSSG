@@ -22,7 +22,7 @@ function abFilelist(filename, pathto)
     end
 
     local ndtw = json.encode(newdata)
-    local file = io.open("filelist-"..filename, "w+")
+    local file = io.open("output/filelist-"..filename, "w+")
     file:write(ndtw)
     file:flush()
     file:close()
@@ -38,7 +38,7 @@ function createThumbnails(filename)
         local path = "./art-source"..v.fspath
         print("resizing image '"..v.fspath.."' by 4")
 
-        os.execute("ffmpeg -f image2 -i "..path.." -vf \"scale=iw/4:ih/4\" ./thumbnails"..
+        os.execute("ffmpeg -f image2 -i "..path.." -vf \"scale=iw/4:ih/4\" ./output/thumbnails"..
         v.fspath..".gif")
         print("resized image '"..v.fspath.."' by 4")
     end
