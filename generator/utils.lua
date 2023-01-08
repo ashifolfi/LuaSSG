@@ -16,12 +16,3 @@ function GetTemplateContents(name)
     file:close()
     return contents
 end
-
-function GenerateNav(data)
-    local navdat = ""
-    for _,v in ipairs(data.locations) do
-        local template = string.gsub(data.template, "$NAME", v[2])
-        navdat = navdat..template:gsub("$TARGET", v[1]).."\n"
-    end
-    return navdat
-end
